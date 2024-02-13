@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolia Website</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/307bb200f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/l2.png" height="100px" width="300px" class="logo">
+            <ul id="sidemenu">
+               
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            
+        </nav>
+        <div class="header-text">
+            <p>PCB Designer</p>
+            <h1>Hi, I'm <span>Aditya </span>Irkal<br>From India</h1>
+        </div>
+    </div>
+
+</div>
+<!-- ---------------about------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/adii.png" height:"500px" width="300px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a detail-oriented and highly skilled professional, I take pride in my proficiency as a Printed Circuit Board (PCB) Designer and Frontend Developer. 🎨 With a proven track record, I've specialized in the intricate design of complex PCBs, ensuring functionality and adherence to industry standards. 🛠️ Simultaneously, my passion lies in creating visually appealing and user-friendly frontend solutions, where I leverage my expertise in HTML5, CSS3.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">education</p>
+                
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>PCB Designer</span><br>Designing Circuit/Layout Design interface</li>
+                    <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023</span><br>Embedded System with Full Stack IOT as a Intern</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022-2024(pursuing)</span><br>B.E From Vishwantrao Deshpande Institute of Technology,Haliyal<br>CGPA-7.12</li>
+                    <li><span>2018-2021</span><br>Diploma From TSIT ,Hubli<br>Percentage-69.4</li>
+                    <li><span>2018</span><br>SSLC from Shri Durgadevi English Medium School,Hubli</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------projects---------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+        <div>
+            <i class="fa-solid fa-car"></i>
+             <h2>Self Driving car</h2>
+             <p> A self-driving car prototype can be developed using Raspberry Pi and OpenCV, enabling autonomous navigation through the 
+                integration of computer vision algorithms and hardware components.</p>
+                <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-codepen"></i>
+            <h2>Design of 5:32 Decoder Using Cadence Virtuoso</h2>
+            <p> The design of a 5:32 decoder using Cadence Virtuoso involves the creation of a digital circuit that takes a 5-bit input and produces a 
+                32-bitoutput. The decoder utilizes the features and tools provided by Cadence Virtuoso, a popular electronic design automation (EDA) 
+                software, to enable decient and accurate circuit design. Designed a 5:32 decoder using Cadence Virtuoso software, conducting 
+                simulations for functionality and timing verification using Synopsys tools. </p>
+               <a href="#">Learn more</a>
+       </div>
+       <div>
+        <i class="fa-solid fa-wand-sparkles"></i>
+        <h2>Automatic Light and Temperature Sensor Using Arduino Controller</h2>
+        <p> The project aims to create an automated light and temperature sensor system using an Arduino controller, which will enable realtime monitoring of light levels and temperature in a given environment , allowing for automatic adjustments to lighting conditions
+            and temperature settings for optimal comfort and energy efficiency</p>
+           <a href="#">Learn more</a>
+         </div>
+    </div>
+
+    </div>
+</div>
+<!-- -------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> adityairkal@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7406686637</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/adityairkal?igsh=MTB6NWR2Mng1empqbw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/adityairkal?t=BDP1JwQ0wBkB7SopbVOesQ&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.facebook.com/aditya.irkal?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-irkal-598a2b207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/last resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id=""></span>
+                </div>
+            
+        </div>
+    </div>
+    <div class="copyrigt">
+        <p>copyright.Made with<i class="fa-solid fa-heart"></i> by Aditya Irkal </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+    
+</body>
+</html>
